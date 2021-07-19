@@ -1,354 +1,284 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="h-full">
+
 <head>
   <meta charset="UTF-8">
-  <title>Curriculum Vitae</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <script src="https://kit.fontawesome.com/42662ec54a.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <title>CV</title>
 </head>
-<body>
-<div class="heading">
-  <div class="container">
-    <div class="row">
-      <div class="two columns"><img src="image.jpg" alt="It's me" class="u-max-full-width"></div>
-      <div class="five columns">
-        <div>
-          <div><b>Шабанов Евгений Вячеславович</b></div>
-          <div><b>Ruby, Ruby On Rails разработчик</b></div>
-          <div>20.07.1992</div>
-          <div>г. Санкт-Петербург</div>
-          <div>
-            <i class="far fa-envelope">
-              <a href="mailto:to.isla@gmail.com">to.isla@gmail.com</a>
-            </i>
+
+<body class="h-full my-2 bg-gradient-to-l from-gray-100 to-gray-300" style="font-family: 'Roboto', sans-serif;">
+  <div
+    class="grid lg:grid-cols-3 mx-auto justify-items-center xl:w-10/12 lg:w-12/12 md:w-12/12 sm:w-12/12 gap-1 my-5 h-full">
+    <div class="shadow-xl px-5 bg-gray-100">
+      <div class="sticky top-0 py-5">
+        <div class="font-semibold text-center text-4xl">Евгений Шабанов</div>
+        <div class="text-center text-2xl mb-2">Ruby On Rails разработчик</div>
+        <img src="image.jpg" class="rounded-sm mx-auto md:w-96 sm:w-72 w-64" alt="[me]" />
+
+        <div class="flex flex-col mt-5">
+          <div class="flex w-12 w-full items-start mb-2">
+            <div class="w-2/12">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <div class="w-10/12 text-sm subpixel-antialiased">
+              Пишу код, потому что люблю сложные задачи и думать.
+              С 2015 по 2020 год являлся ведущим техническим специалистом и играющим руководителем в компании,
+              занимающейся автоматизацией ресторанов.
+              В 2020 — 2021 годах работал бекенд разработчиком на стартап проекте, где самостоятельно изучал Python и
+              Django.
+              В настоящий момент работаю ведущим специалистом в автоматизаторе ресторанных процессов, менторствую и
+              упрощаю жизнь с помощью кода и аналитики бизнес процессов.
+              Первым по-настоящему "взрослым" стеком явился C#, Razor, с помощью которого я автоматизировал
+              дополнительные процессы заведения с доставкой, что также вылилось в мою дипломную работу. С 2021 года
+              программирую на Ruby и Ruby On Rails.
+            </div>
           </div>
-          <div>
-            <i class="fab fa-telegram">
-              <a href="https://telegram.me/anyonebutme">anyonebutme</a>
-            </i>
+
+          <div class="flex w-12 w-full items-start mb-2">
+            <div class="w-2/12">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <div class="w-10/12 text-sm subpixel-antialiased">
+              20.07.1992
+            </div>
           </div>
-          <div>
-            <i class="fab fa-github-alt">
-              <a href="https://github.com/throughtronik/">throughtronik</a>
-            </i>
+
+          <div class="flex w-12 w-full items-start mb-2">
+            <div class="w-2/12">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+            </div>
+            <div class="w-10/12 text-sm subpixel-antialiased">
+              <a href="callto:+7(921)890-07-78" class="text-blue-600">+7(921)890-07-78</a>
+            </div>
           </div>
+          <div class="flex w-12 w-full items-start mb-2">
+            <div class="w-2/12">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+              </svg>
+            </div>
+            <div class="w-10/12 text-sm subpixel-antialiased">
+              <a href="https://t.me/anyonebutme" class="text-blue-600">@anyonebutme</a>
+            </div>
+          </div>
+
+          <div class="flex w-12 w-full items-start mb-2">
+            <div class="w-2/12">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+              </svg>
+            </div>
+            <div class="w-10/12 text-sm subpixel-antialiased">
+              <a href="mailto:to.isla@gmail.com" class="text-blue-600">to.isla@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="flex w-12 w-full items-start">
+            <div class="w-2/12">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+              </svg>
+            </div>
+            <div class="w-10/12 text-sm subpixel-antialiased">
+              Россия, Санкт-Петербург
+            </div>
+          </div>
+
         </div>
+
+
       </div>
     </div>
-    <div>
-      <ins>Мой опыт работы</ins>
-    </div>
-    <div class="row">
-      <div class="three columns"><b>Февраль 2021 — Настоящее время</b></div>
-      <div class="nine columns">
-        <div><b>Cтандарт 7</b></div>
-        <b>Ментор по автоматизации ресторанов на iiko / Автоматизация процессов на Python</b>
-        <div>
-          <div>Обучаю специалистов технической поддержки ресторанной системе автоматизации iiko.
-            <div>Автоматизирую процессы компании:
-              <ul>
-                <li>1) Создал телеграмм бота, который уведомляет специалистов компании о новой заявке, а руководителя
-                  о смене статуса заявки.
-                </li>
-                <li>2) Спроектировал, написал на Django систему для хранения, просмотра, модификации информации об
-                  удаленных
-                  подключениях до конечных клиентов.
-                </li>
+    <div class="lg:col-span-2  h-full shadow-xl lg:w-full">
+      <div class="flex flex-col px-2 bg-gray-100">
+
+        <div class="font-semibold text-2xl mb-2 mx-2 mt-5">Навыки</div>
+        <div class="mb-2 mx-2">
+          <div class="bg-red-800 rounded-full text-center text-white">Ruby</div>
+          <ul class="mx-2">
+            <li><strong>ООП</strong> — поверьте на слово, оно здесь проще, чем в C#, но похоже на Python. </li>
+            <li><strong>Syntax</strong> — спасибо классному стайл-гайду и rubocop.</li>
+            <li><strong>Ruby Way</strong> — наконец-то нашелся язык, на котором код похож на поэмы.</li>
+            <li><strong>Gems</strong></li>
+            <li><strong>irb</strong> — быстро написать и проверить код здесь лучше всего. Можно показать питонисту, как
+              должна выглядеть консоль.</li>
+            <li><strong>byebug</strong> — дебаг и отладка.</li>
+          </ul>
+        </div>
+        <div class="mb-2 mx-2">
+          <div class="bg-red-800 rounded-full text-center text-white ">Ruby On Rails</div>
+          <ul class="mx-2">
+            <li><strong>MVC</strong> — как я раньше жил в среде MVT... В общем, архитектура моих приложений.</li>
+            <li><strong>REST</strong> — следую всегда и везде, даже в обычной жизни.</li>
+            <li><strong>I18n</strong> — перенял привычку правильно локализовать проекты еще в Django.</li>
+            <li><strong>Проектирование</strong> — писал на стартапе сценарии, представления и модели, а также CRUDL.
+              Пишу и сейчас.</li>
+            <li><strong>ActiveRecord</strong> — запросы, Миграции. Изучал прилежно, использую сейчас.</li>
+            <li><strong>Routes</strong> — маршрутизация, ресурсы. Стараюсь правильно строить маршруты к контроллерам.
+            </li>
+            <li><strong>Хранение паролей, ключей</strong> — Secrets, Credentials, dotEnv. Я согласен с тем, что ключи не
+              должны утекать...</li>
+            <li><strong>ActionMailer</strong> — Умею создавать отправку почты из Rails приложений.</li>
+            <li><strong>ActiveJob</strong> — Фоновые задачи через Resque, Inline, Async и Redis.</li>
+            <li><strong>ActionCable</strong> — WebSocket, каналы Pub/Sub.</li>
+            <li><strong>ActiveModel</strong> — Связи, Валидации, Колбеки, методы моделей, связи. А как без них?</li>
+            <li><strong>Bundler</strong> — Создаю списки нужных гемов, фиксирую версии, распределяю по окружениям.</li>
+            <li><strong>Devise, Pundit</strong> — Не путаюсь в аутентификации и авторизации.</li>
+            <li><strong>CarrierWave</strong> — Загружаю данные в хранилище Amazon S3.</li>
+            <li><strong>OmniAuth</strong> — Создавал вход в приложения через VK и FB. В связке с Devise.</li>
+            <li><strong>Google Capcha v2</strong> — Ну вы сами понимаете, юзеры бывают разные...</li>
+            <li><strong>Capistrano</strong> — Деплоил на сервер через эту штуку и в целом неплохо получалось.</li>
+          </ul>
+        </div>
+        <div class="mb-2 mx-2">
+          <div class="bg-blue-800 rounded-full text-center text-white">Тестирование</div>
+          <ul class="mx-2">
+            <li><strong>RSpec</strong> — Проверить 11 из 10 ситуаций, конечно же через RSpec.</li>
+            <li><strong>TDD</strong> — код через тесты.</li>
+            <li><strong>Unit Testing</strong> — тестирую публичные методы.</li>
+            <li><strong>BDD</strong> — тестируем поведение юзера через незатейливого зверька.</li>
+            <li><strong>FactoryBot и Faker</strong> — Наполняю содержанием тесты, чтобы было на чем тестировать.</li>
+          </ul>
+        </div>
+        <div class="mb-2 mx-2">
+          <div class="bg-green-800 rounded-full text-center text-white">SQL</div>
+          <ul class="mx-2">
+            <li><strong>SQlite, Postgres, MSSQL</strong> — с такими базами я имел опыт.</li>
+            <li><strong>Запросы</strong> — SELECT, JOIN (LEFT, INNER), GROUP, ORDER, UPDATE, ALTER, WHERE (пользуюсь
+              нечасто в силу ORM, но смысл понимаю, а синтаксис всегда есть в Google).</li>
+          </ul>
+        </div>
+        <div class="mb-2 mx-2">
+          <div class="bg-black rounded-full text-center text-white">Frontend</div>
+          <ul class="mx-2">
+            <li><strong>HTML, CSS</strong> — на уровне бекендера, умею адаптивную верстку через Bootstrap 5 <a
+                href="https://throughtronik.github.io/adaptive_landing/" class="text-blue-800">(пример)</a>, TailWindCSS
+              (данная страница), Skeleton.</li>
+            <li><strong>JS</strong> — как у любого бекендера, на базовом уровне, немного чистого JS, JQuery, js.erb для
+              обновления содержимого.</li>
+          </ul>
+        </div>
+        <div class="mb-2 mx-2">
+          <div class="bg-indigo-800 rounded-full text-center text-white">Иструменты и прочее</div>
+          <ul class="mx-2">
+            <li><strong>IDE и редакторы кода</strong> — VScode, RubyMine, Sublime, Atom.</li>
+            <li><strong>Окружение</strong> — Ubuntu, Linux Mint или PopOS, в данный момент Win10 + WSL2.</li>
+            <li><strong>Linux</strong> — терминал, базовые команды, ssh.</li>
+            <li><strong>Git</strong> — коммиты, пуши, реверты. немного ветки. Имел опыт с гитхаб и битбакет.</li>
+            <li><strong>Amazon S3</strong> — как хранилище внешних файлов, немного копался в их политиках.</li>
+            <li><strong>MailJet</strong> — служба рассылок почты, используемая в одном из проектов.</li>
+            <li><strong>Heroku</strong> — деплоил на Хероку некоторые из своих проектов. Добавлял аддоны для postgres.
+            </li>
+            <li><strong>Домены, почта</strong> — регистрировал домен, привязывал к почте, заносил записи в домен (A,
+              C-name, TXT), SPF.</li>
+            <li><strong>VPS</strong> — создавал каплю на DigitalOcean, настраивал Nginx+Passenger, Redis, Postgres. Для
+              дальнейшего деплоя одного из проектов.</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="flex flex-col mt-2 bg-gray-100">
+        <div class="flex flex-col  bg-gray-100">
+          <div class="font-semibold text-2xl mb-2 mx-2 p-2 mt-5">Проекты</div>
+          <div class="flex flex-col px-2 bg-gray-100">
+            <div class="mb-2 mx-2">
+              <div class="bg-red-800 rounded-full text-center text-white">RUBY</div>
+              <ul class="mx-2">
+                <li><strong>Magic-8-ball</strong> — Консольное приложение, по мотивам magic-8-ball. <a
+                    href="https://github.com/throughtronik/magic_8_ball" class="text-blue-600">[github]</a></li>
+                <li><strong>Pick-a-card</strong> — Консольное приложение, случайная карта. <a
+                    href="https://github.com/throughtronik/pick_a_card" class="text-blue-600">[github]</a></li>
+                <li><strong>HangMan</strong> — Консольная игра-виселица. <a
+                    href="https://github.com/throughtronik/hangman" class="text-blue-600">[github]</a></li>
+                <li><strong>Notepad</strong> — Консольный блокнот с SQlite. <a
+                    href="https://github.com/throughtronik/notepad" class="text-blue-600">[github]</a></li>
+              </ul>
+            </div>
+            <div class="mb-2 mx-2">
+              <div class="bg-red-800 rounded-full text-center text-white">Ruby On Rails</div>
+              <ul class="mx-2">
+                <li><strong>BBQ</strong> — Приложение, для создания встреч с друзьями! <a
+                    href="https://github.com/throughtronik/bbq" class="text-blue-600">[github]</a></li>
+                <li><strong>ASKME</strong> — Клон AskMe, системы, в которой можно публично задать вопрос и получить
+                  ответ. <a href="https://github.com/throughtronik/askme" class="text-blue-600">[github]</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="three columns"><b>Июль 2020 — Февраль 2021</b></div>
-        <div class="nine columns">
-          <div><b>Bnovo</b></div>
-          <b>Специалист поддержки второй линии / Backend-разработчик</b>
+
+      <div class="flex flex-col mt-2 bg-gray-100">
+        <div class="flex flex-col  bg-gray-100 pb-2">
+          <div class="font-semibold text-2xl mb-2 mx-2 p-2 mt-5">Образование</div>
+          <p class="mx-4 font-semibold">Санкт-Петербургский государственный университет Телекоммуникаций им. профессора
+            М. А. Бонч-Бруевича, 2019</p>
+          <p class="mx-4">09.03.02, "Информационные системы и технологии", бакалавр.</p>
+          <p class="mx-4">Тема дипломной работы: "Разработка архитектуры сервис-ориентированной информационной системы
+            предриятия в сфере торговли"</p>
+          <div class="font-semibold text-2xl mb-2 mx-2 p-2 mt-5">Курсы</div>
+          <p class="mx-4 font-semibold"><a href="https://goodprogrammer.ru/" class="text-blue-600">Хороший
+              Программист</a>, 2021.</p>
+          <p class="mx-4">Ruby, Ruby On Rails</p>
+          <div class="font-semibold text-2xl mb-2 mx-2 p-2 mt-5">Иностранные языки</div>
+          <p class="mx-4 font-semibold">Английский</p>
+          <p class="mx-4">Сдавал FCE в 2010 (уровень B2), в настоящий момент B1.</p>
+        </div>
+      </div>
+
+      <div class="flex flex-col mt-2 bg-gray-100">
+        <div class="flex flex-col bg-gray-100 mb-5">
+          <div class="font-semibold text-2xl mb-2 mx-2 p-2 mt-5">Опыт Работы</div>
+          <div class="pb-2">
+            <p class="mx-4 font-semibold">2021 — настоящее время. Стандарт-7, ООО "Стандарт-7"</p>
+            <p class="mx-4">Разрабатываю бизнес-процессы в компании.</p>
+            <p class="mx-4">Ментор для молодых специалистов технической поддержки iiko.</p>
+            <p class="mx-4">Консультирую по API iikoRMS.</p>
+            <p class="mx-4">Разработал telegram-бота на Python, который отправляет сотрудникам уведомления о новых
+              заявках в OKDesk, об изменениях статусов, руководитель может также рассылать уведомления.</p>
+            <p class="mx-4">Спроектировал, разработал и внедрил систему для хранения доступов удаленных терминалов и ПК
+              на Python + Django (сейчас переписывается на Rails).</p>
+          </div>
+          <div class="pb-2">
+            <p class="mx-4 font-semibold">2020— 2021. Биново, ООО "Биново"</p>
+            <p class="mx-4">Разрабатывал систему электронной отчетности на Python и Django.</p>
+          </div>
           <div>
-            <ul>
-              <li>Помогал искать и править баги в HORECA-автоматизации гостиниц.</li>
-              <li>Создавал с нуля проект на Python, Django, связанный с отчетностью гостиниц.</li>
-              <li>Описывал структуру, составлял техническое задание.</li>
-              <li>Описывал схему БД.</li>
-              <li>Создавал API.</li>
-              <li>Создавал телеграмм бота для взаимодействия с API.</li>
-              <li>Писал скрипты для парсинга запросов.</li>
-              <li>Реализовывал Oauth2 клиента.</li>
-              <li>Реализовывал импорт csv и xlsx файлов.</li>
-            </ul>
+            <p class="mx-4 font-semibold">2015— 2020: Open Service, ООО "Опен Трейд АйТи"</p>
+            <p class="mx-4">Писал шаблоны в системе iiko на Razor, C#. разрабатывал плагины для iiko на C# и XAML.</p>
+            <p class="mx-4">Получил приз как лучший наставник.</p>
+            <p class="mx-4">За полгода стал ведущим специалистом, а затем руководителем.</p>
+            <p class="mx-4">Использовал английский язык для обучения технических специалистов иностранного офиса.</p>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="three columns"><b>Июль 2017 — Май 2020</b></div>
-        <div class="nine columns">
-          <div><b>ОпенСервис</b></div>
-          <b>Руководитель рабочей группы / Технический специалист</b>
-          <div>
-            К обязанностям технического специалиста добавились следующие:
-            <ul>
-              <li>— Управление командой.</li>
-              <li>— Постановка задач и ведение внутренних проектов.</li>
-              <li>— Организация собраний.</li>
-              <li>— Анализ эффективности и KPI.</li>
-              <li>— Прием, увольнение сотрудников. назначение и согласование заработной платы.</li>
-              <li>— Стажировка и наставничество новых сотрудников.</li>
-              <li>— Ведение крупных проектов автоматизации для клиентов (ресторанных сетей, сетей доставок).</li>
-              <li>— Быть на связи почти всегда.</li>
-              <li>— Управление сразу 2 командами в разных часовых поясах.</li>
-              <li>— Написание бизнес-процессов, регламентов, правил для компании.</li>
-            </ul>
 
-            Приобрел следующие навыки и научился:
-            <ul>
-              <li>— Решать конфликты подчиненных, мотивировать и настраивать на позитивный настрой и хорошую
-                производительность.
-              </li>
-              <li>— Помогать подчиненным в решении конфликтных ситуаций и рабочих моментов.</li>
-              <li>— Получил понимание "портрета руководителя".</li>
-            </ul>
-            Среди достижений могу отметить:
-            <ul>
-              <li>— С начала работы в этой должности собрал команду, которая оказалась очень дружной, с большим КПД
-                и доверительными отношениями к друг другу.
-              </li>
-              <li>— Имел оценку одного из лучших руководителей.</li>
-              <li>— В квартальных результатах моя команда стабильно занимала первое или второе место по
-                эффективности.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="three columns"><b>Сентябрь 2015 — Июль 2017</b></div>
-          <div class="nine columns">
-            <div><b>ОпенСервис</b></div>
-            <b>Технический специалист</b>
-            <div>
-              В обязанности входило:
-              <ul>
-                <li>— Обработка и учет входящих задач в биллинговой системе (ServiceDesk, Pyrus), каналы обращений:
-                  телефон, почта, мессенджеры, рабочий номер.
-                </li>
-                <li>— Настройка системы автоматизации iikoRMS. Настройка и внедрение рабочих мест как линейного
-                  персонала, так и управленческого персонала (iikoFront. iikoOffice и iikoChain). Стыковка и настройка
-                  дополнительных модулей и программ.
-                </li>
-                <li>— Выезды, внедрения, удаленные внедрения кассового оборудования, POS-терминалы, чековые
-                  принтеры, фискальные регистраторы и прочего HORECA-оборудования. На моем счету около 10
-                  различных командировок в различные части России.
-                </li>
-                <li>— Работа с заявками включала в себя, консультацию клиентов по модулям системы (порядка 35
-                  различных сервисов, включая настройку и внедрение системы iikoRMS, установку ПО MS SQL Server,
-                  ОС Windows, настройка оборудования, ЕГАИС УТМ, ЛВС), дополнительным модулям от сторонних
-                  разработчиков, решению ошибок с предоставляемым компанией и сторонними компаниями
-                  программными комплексами и модулями.
-                </li>
-                <li>— Выезды к клиентам для физического исправления проблем с ЛВС, и оборудованием, включая
-                  фискальные регистраторы.
-                </li>
-                <li>— Устранение неполадок и внесение изменений используя SQL-Запросы (БД Microsoft SQL Server.).</li>
-                <li>— Программирование чеков и отчетов, используя С# MVC Razor и Stimlisoft.</li>
-                <li>— Работа с заявками выполнялась удаленно с использованием программ удаленного доступа
-                  (TeamViewer, AnyDesk, Radmin, RDP).
-                </li>
-                <li>— Коммуникация с вендором и партнерами, совместные доработки текущего ПО. Заведение багов в
-                  баг-трекеры.
-                </li>
-                <li>— Консультация сторонних разработчиков по API iikoRMS, помощь в создании стыковок, включая разбор
-                  JSON, HTTP запросов.
-                </li>
-                <li>— Обучение клиентов по модулям ПО iikoRMS.</li>
-                <li>— Консалтинг по созданию акций и получению выручки, используя системы лояльности iikoCard,
-                  iikoCard5, Plazius, Фабрика лояльности.
-                </li>
-                <li>— Работал в разное время по-разному графику, среди них были такие как (с 19 вечера пятницы до 10
-                  утра понедельника, 5/2 с пн по пт + дежурства 4 раза в месяц в будни с 19 до 02), включая все
-                  праздники и выходные (на которые выпадали рабочие дни).
-                </li>
-              </ul>
-              Приобрел следующие навыки и научился:
-              <ul>
-                <li>— Находить общий язык с клиентами, для которых важно сделать все очень быстро (здесь и сейчас).</li>
-                <li> — Налаживать контакты и разбирать конфликтные ситуации с клиентами.</li>
-                <li>— В условиях сильно ограниченных дедлайнов быстро и правильно решать рабочие задачи.</li>
-                <li>— Работать как многоядерный процессор, с большим потоком заявок и задач.</li>
-                <li>— Соблюдать SLA.</li>
-                <li>— Грамотно предоставлять обратную связь.</li>
-                <li>— Утверждать сроки следующих шагов.</li>
-              </ul>
-              Среди достижений могу отметить:
-              <ul>
-                <li>— Достаточно быстро заслужил статус технического специалиста с отменной репутацией и хорошими
-                  навыками.
-                </li>
-                <li>— Обучил порядка десятка специалистов аналогичной должности, получил награду лучшему наставнику.
-                </li>
-                <li>— Изучил практически нигде не описанные возможности разработки чеков, отчётов и печатных форм
-                  системы iikoRMS, что позволило мне быть в пятерке специалистов данной области, среди всех дилеров
-                  данного ПО. Предоставлял услуги по разработке чеков, отчетов и печатных форм вендору данного ПО.
-                </li>
-                <li>— Обучал специалистов других офисов используя английский язык (Дубай).</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="three columns"><b>Май 2014 — Август 2015</b></div>
-          <div class="nine columns">
-            <div><b>Инфо Лан</b></div>
-            <b>Специалист по слаботочным системам</b>
-            <p>
-              Монтаж локально вычислительной сети (ЛВС), пусконаладочные работы по запуску ЛВС, установка
-              оборудования для ЛВС, консультация клиентов по тарифам и услугам, настройка оборудования
-              конечных пользователей, мелкий и средний ремонт ПК, обучение пользователей работе с ПК и
-              программным обеспечением, работа с документами.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="three columns"><b>Апрель 2013 — Май 2014</b></div>
-          <div class="nine columns">
-            <div><b>ЖКХ НИКОЛЬСКОЕ</b></div>
-            <b>Специалист по слаботочным системам</b>
-            <p>
-              Монтаж локально вычислительной сети (ЛВС), пусконаладочные работы по запуску ЛВС, установка
-              оборудования для ЛВС, консультация клиентов по тарифам и услугам, настройка оборудования
-              конечных пользователей, мелкий и средний ремонт ПК, обучение пользователей работе с ПК и
-              программным обеспечением, работа с документами.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <ins>Образование</ins>
-        </div>
-        <div class="row">
-          <div class="three columns"><b>2019</b></div>
-          <div class="nine columns">
-            <b>Санкт-Петербургский государственный университет телекоммуникаций им. проф. М.А. Бонч-Бруевича,
-              Санкт-Петербург</b>
-            <p>
-              ИСиТ, Информационные системы и технологии.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="three columns"><b>2012 (не окончено)</b></div>
-          <div class="nine columns">
-            <b>Санкт-Петербургский государственный университет</b>
-            <p>
-              ПМ-ПУ, Прикладная математика и информатика.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="three columns"><b>2011 (не окончено)</b></div>
-          <div class="nine columns">
-            <b>Национальный исследовательский университет ИТМО</b>
-            <p>
-              ИФФ, Тепловая физика и теплоэнергетика.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <ins>Ключевые навыки</ins>
-        </div>
-        <div class="row">
-          <div class="three columns"><b>Знание языков</b></div>
-          <div class="nine columns">
-            <p>Русский, Английский.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="three columns"><b>Навыки</b></div>
-          <div class="nine columns">
-            <p>
-              Helpdesk,
-              Слаботочные системы,
-              Менторство и обучение,
-              Техническая поддержка,
-              Настройка ПК,
-              iiko,
-              iikoRMS,
-              Razor MVC,
-              Кассовая техника,
-              Мелкий и средний ремонт ПК,
-              Консультация клиентов,
-              iikoOffice,
-              Настройка DNS,
-              ServiceDesk,
-              Управление проектами,
-              JSON API,
-              HTTP,
-              Pyrus,
-              Руководство коллективом,
-              Basic SQL,
-              MS SQL Server,
-              Продвинутый пользователь ПК,
-              Настройка сетевых подключений,
-              Настройка серверов,
-              TCP/IP,
-              Консультация партнеров,
-              Автоматизация ресторанов,
-              Windows,
-              LAN,
-              HTML,
-              СУБД,
-              POS-системы,
-              Консультирование клиентов по телефону,
-              Python Junior,
-              Django Framework,
-              Bottle,
-              Telegram API,
-              Ruby Junior,
-              Ruby On Rails Junior,
-              PM Intern.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <ins>Дополнительная информация</ins>
-        </div>
-        <div class="row">
-          <div class="three columns"><b>Обо мне</b></div>
-          <div class="nine columns">
-            <p>
-              Тяготею к IT-технологиям и разработке.
-              Почти 5 лет посвятил компании автоматизации ресторанного бизнеса, занимаясь технической
-              поддержкой и мелкой разработкой (на эту тему даже диплом написал с разработкой программного
-              решения на языке C#). Используя C# реализовал дополнительной программное решение для
-              автоматизации дополнительной потребности заказчика доставки готовых блюд,
-              а также написал телеграмм бота для автоматической рассылки отчётов из системы
-              iikoRMS. В работе часто использовал Razor для написания чеков для iiko.
-              Изучал также Python, Django, Bottle и различные библиотеки Python и на
-              каждой работе что-то писал и автоматизировал (подробнее в опыте работы).
-            </p>
-
-            <p>Активно изучаю Ruby и Ruby On Rails.</p>
-
-            <p>В работе следую принципу: "Всегда иду впереди, оглядываясь на коллег через плечо", показывая
-              чрезмерно высокую ответственность и доведение задач до конца, постоянно снимая обратную
-              связь о выполненной мной работе.</p>
-
-            Уважаю БП Думанья (подход к решению задач):
-            <ul>
-              <li>1) Подумай сам.</li>
-              <li>2) Поищи в доступных источниках.</li>
-              <li>3) Спроси коллегу.</li>
-              <li>4) Спроси руководителя.</li>
-              <li>5) Собери комиссию руководителей.</li>
-            </ul>
-            <p>В свободное время хожу в бассейн, играю на гитаре, изучаю книги по программированию и
-              психологии, ремонтирую автомобиль, интересуюсь электроникой и схемотехникой.</p>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
-</div>
+
 </body>
+
 </html>
